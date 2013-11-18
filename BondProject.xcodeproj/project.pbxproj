@@ -21,6 +21,14 @@
 		FCD8DA53183A6CE400728C6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD8DA35183A6CE400728C6D /* UIKit.framework */; };
 		FCD8DA5B183A6CE400728C6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCD8DA59183A6CE400728C6D /* InfoPlist.strings */; };
 		FCD8DA5D183A6CE400728C6D /* BondProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD8DA5C183A6CE400728C6D /* BondProjectTests.m */; };
+		FCD8DA67183A6CFF00728C6D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD8DA66183A6CFF00728C6D /* libsqlite3.0.dylib */; };
+		FCD8DA73183A6DB200728C6D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD8DA6A183A6DB200728C6D /* FMDatabase.m */; };
+		FCD8DA74183A6DB200728C6D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD8DA6C183A6DB200728C6D /* FMDatabaseAdditions.m */; };
+		FCD8DA75183A6DB200728C6D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD8DA6E183A6DB200728C6D /* FMDatabasePool.m */; };
+		FCD8DA76183A6DB200728C6D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD8DA70183A6DB200728C6D /* FMDatabaseQueue.m */; };
+		FCD8DA77183A6DB200728C6D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD8DA72183A6DB200728C6D /* FMResultSet.m */; };
+		FCD8DA7A183A6E4F00728C6D /* weightInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD8DA79183A6E4F00728C6D /* weightInputViewController.m */; };
+		FCD8DA7D183A6E5D00728C6D /* CalorieInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD8DA7C183A6E5D00728C6D /* CalorieInputViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,21 @@
 		FCD8DA58183A6CE400728C6D /* BondProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BondProjectTests-Info.plist"; sourceTree = "<group>"; };
 		FCD8DA5A183A6CE400728C6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCD8DA5C183A6CE400728C6D /* BondProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BondProjectTests.m; sourceTree = "<group>"; };
+		FCD8DA66183A6CFF00728C6D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		FCD8DA69183A6DB200728C6D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		FCD8DA6A183A6DB200728C6D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		FCD8DA6B183A6DB200728C6D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		FCD8DA6C183A6DB200728C6D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		FCD8DA6D183A6DB200728C6D /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		FCD8DA6E183A6DB200728C6D /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		FCD8DA6F183A6DB200728C6D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		FCD8DA70183A6DB200728C6D /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		FCD8DA71183A6DB200728C6D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		FCD8DA72183A6DB200728C6D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		FCD8DA78183A6E4F00728C6D /* weightInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weightInputViewController.h; sourceTree = "<group>"; };
+		FCD8DA79183A6E4F00728C6D /* weightInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weightInputViewController.m; sourceTree = "<group>"; };
+		FCD8DA7B183A6E5D00728C6D /* CalorieInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalorieInputViewController.h; sourceTree = "<group>"; };
+		FCD8DA7C183A6E5D00728C6D /* CalorieInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalorieInputViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCD8DA67183A6CFF00728C6D /* libsqlite3.0.dylib in Frameworks */,
 				FCD8DA34183A6CE400728C6D /* CoreGraphics.framework in Frameworks */,
 				FCD8DA36183A6CE400728C6D /* UIKit.framework in Frameworks */,
 				FCD8DA32183A6CE400728C6D /* Foundation.framework in Frameworks */,
@@ -101,6 +125,7 @@
 		FCD8DA30183A6CE400728C6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FCD8DA66183A6CFF00728C6D /* libsqlite3.0.dylib */,
 				FCD8DA31183A6CE400728C6D /* Foundation.framework */,
 				FCD8DA33183A6CE400728C6D /* CoreGraphics.framework */,
 				FCD8DA35183A6CE400728C6D /* UIKit.framework */,
@@ -112,11 +137,16 @@
 		FCD8DA37183A6CE400728C6D /* BondProject */ = {
 			isa = PBXGroup;
 			children = (
+				FCD8DA68183A6D8900728C6D /* FMDB */,
 				FCD8DA40183A6CE400728C6D /* AppDelegate.h */,
 				FCD8DA41183A6CE400728C6D /* AppDelegate.m */,
-				FCD8DA43183A6CE400728C6D /* Main.storyboard */,
 				FCD8DA46183A6CE400728C6D /* ViewController.h */,
 				FCD8DA47183A6CE400728C6D /* ViewController.m */,
+				FCD8DA43183A6CE400728C6D /* Main.storyboard */,
+				FCD8DA78183A6E4F00728C6D /* weightInputViewController.h */,
+				FCD8DA79183A6E4F00728C6D /* weightInputViewController.m */,
+				FCD8DA7B183A6E5D00728C6D /* CalorieInputViewController.h */,
+				FCD8DA7C183A6E5D00728C6D /* CalorieInputViewController.m */,
 				FCD8DA49183A6CE400728C6D /* Images.xcassets */,
 				FCD8DA38183A6CE400728C6D /* Supporting Files */,
 			);
@@ -150,6 +180,23 @@
 				FCD8DA59183A6CE400728C6D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCD8DA68183A6D8900728C6D /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				FCD8DA69183A6DB200728C6D /* FMDatabase.h */,
+				FCD8DA6A183A6DB200728C6D /* FMDatabase.m */,
+				FCD8DA6B183A6DB200728C6D /* FMDatabaseAdditions.h */,
+				FCD8DA6C183A6DB200728C6D /* FMDatabaseAdditions.m */,
+				FCD8DA6D183A6DB200728C6D /* FMDatabasePool.h */,
+				FCD8DA6E183A6DB200728C6D /* FMDatabasePool.m */,
+				FCD8DA6F183A6DB200728C6D /* FMDatabaseQueue.h */,
+				FCD8DA70183A6DB200728C6D /* FMDatabaseQueue.m */,
+				FCD8DA71183A6DB200728C6D /* FMResultSet.h */,
+				FCD8DA72183A6DB200728C6D /* FMResultSet.m */,
+			);
+			name = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +297,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCD8DA48183A6CE400728C6D /* ViewController.m in Sources */,
+				FCD8DA75183A6DB200728C6D /* FMDatabasePool.m in Sources */,
+				FCD8DA7A183A6E4F00728C6D /* weightInputViewController.m in Sources */,
 				FCD8DA42183A6CE400728C6D /* AppDelegate.m in Sources */,
+				FCD8DA76183A6DB200728C6D /* FMDatabaseQueue.m in Sources */,
 				FCD8DA3E183A6CE400728C6D /* main.m in Sources */,
+				FCD8DA73183A6DB200728C6D /* FMDatabase.m in Sources */,
+				FCD8DA77183A6DB200728C6D /* FMResultSet.m in Sources */,
+				FCD8DA74183A6DB200728C6D /* FMDatabaseAdditions.m in Sources */,
+				FCD8DA7D183A6E5D00728C6D /* CalorieInputViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
