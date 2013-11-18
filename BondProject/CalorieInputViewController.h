@@ -10,4 +10,19 @@
 
 @interface CalorieInputViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *calTitle;
+@property (strong, nonatomic) IBOutlet UITextField *calCal;
+@property (strong, nonatomic) IBOutlet UITextField *calNum;
+
+- (IBAction)calSave:(id)sender;
+
+
+@property (strong, nonatomic) IBOutlet UITextField *exeTitle;
+@property (strong, nonatomic) IBOutlet UITextField *exeCal;
+@property (strong, nonatomic) IBOutlet UITextField *exeNum;
+
+- (IBAction)exeSave:(id)sender;
+
+
+
 @end
